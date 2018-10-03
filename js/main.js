@@ -1,5 +1,6 @@
-//var list = new OrderedArrayList();
+// var list = new OrderedArrayList();
 var list = new OrderedLinkedList();
+// var list = new OrderedDoublyLinkedList();
 
 $().ready( () => {
     $('#insert').click(insertElement)
